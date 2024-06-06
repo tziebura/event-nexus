@@ -1,10 +1,17 @@
 {
+    "authors": [
+        {
+            "name": "Tomasz Ziebura",
+            "email": "dev.ziebura@gmail.com",
+            "role": "Maintainer"
+        }
+    ],
     "type": "project",
-    "license": "proprietary",
+    "license": "MIT",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "php": ">=8.2",
+        "php": ">=8.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/console": "7.1.*",
@@ -26,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "EventNexus\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "EventNexus\\Tests\\": "tests/"
         }
     },
     "replace": {
